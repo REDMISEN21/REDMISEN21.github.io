@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="汽车销量.css">
+    </head>
+    <body style="width: 100%;height: 100%;background-image: linear-gradient(to right, #002035, #06032e);">
+        <div>
+            <div id="left1" style="width:25%;height: 400px;position: absolute;left: 40px;"></div>
+            <div id="left2" style="width:25%;height:400px;position: absolute;left: 20px;top: 50%;"></div>
+        </div>
+        <div>
+            <div id="right1" style="width:25%;height:400px;position: absolute;left: 1400px;"></div>
+        </div>
+        <div>
+            <div id="chinamap" style="align-items: flex-end;width: 47%;height: 900px;position: absolute;left: 510px;"></div>
+        </div>
+        <div style="position: absolute;right:100px;bottom: 100px;background: rgba(0, 0, 0, 0.144);width: 350px;height: 400px;">
+            <ol>
+                <li style="color: white;font-size: 30px;">Model Y</li>
+                &nbsp;
+                <li style="color: white;font-size: 30px;">AION S</li>
+                &nbsp;
+                <li style="color: white;font-size: 30px;">AION Y</li>
+                &nbsp;
+                <li style="color: white;font-size: 30px;">ZEEKR 001</li>
+                &nbsp;
+                <li style="color: white;font-size: 30px;">型格</li>
+            </ol>
+        </div>
+
+        <script src="lib/json/echarts.min.js"></script>
+        <script src="lib/json/jquery.min.js"></script>
+        <script src="left1.js"></script>
+        <script src="left2.js"></script>
+        <script src="right1.js"></script>
+        <script src="lib/map/china.js"></script>
+        <script src="chinamap.js"></script>
+    </body>
+</html>
